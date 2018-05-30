@@ -1,6 +1,10 @@
 ---
 title: Associate a New Authenticator for Use with Multifactor Authentication
 description: How to associate a new authenticator for use with MFA using the new MFA API endpoints
+tags:
+  - mfa
+  - mfa-api
+  - mfa-challenges
 ---
 # Multifactor Authentication Challenges
 
