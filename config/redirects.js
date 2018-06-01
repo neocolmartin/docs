@@ -1808,5 +1808,9 @@ module.exports = [
   {
     from: '/architecture-scenarios/implementations/web-app-sso',
     to: '/architecture-scenarios/web-app-sso'
+  },
+  {
+    from: '/support/sla',
+    to: '/support/sld'
   }
 ];
