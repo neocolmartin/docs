@@ -1,6 +1,11 @@
 ---
 title: Associate an OTP Authenticator
 description: How to associate an OTP authenticator
+tags:
+  - mfa
+  - mfa-api
+  - mfa-authenticators
+  - otp
 ---
 # Associate an OTP Authenticator
 

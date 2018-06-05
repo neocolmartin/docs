@@ -1,6 +1,11 @@
 ---
 title: Associate an OOB Authenticator
 description: How to associate an OOB authenticator
+tags:
+  - mfa
+  - mfa-api
+  - mfa-authenticators
+  - oob
 ---
 # Associate an OOB Authenticator
 

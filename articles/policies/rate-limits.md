@@ -1,5 +1,9 @@
 ---
 description: This page details Auth0's Rate Limit Policy with hitting Auth0 API endpoints.
+tags:
+    - auth0-policies
+    - rate-limits
+    - testing
 ---
 # Auth0 API Rate Limit Policy
 
