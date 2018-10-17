@@ -192,4 +192,4 @@ The next time the user logs in they will need to re-setup their MFA just like a 
 
 Guardian, and other types of MFA, can be disabled from the [Multi-factor Auth](${manage_url}/#/guardian) section of the dashboard. Toggle the button to disabled for the type of MFA you wish to turn off. A confirmation popup will appear.
 
-By disabling a type of MFA, you will un-enroll all your current users of that type of MFA. They will be asked to re-enroll next time they try to login. This action cannot be reverted.
+By disabling a type of MFA, you will un-enroll all your current users of that type of MFA. If you have the other type of MFA enabled, or if you re-enable MFA at a later time, your users will be asked to re-enroll next time they try to login. This action cannot be reverted.
