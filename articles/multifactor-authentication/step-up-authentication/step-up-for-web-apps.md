@@ -24,7 +24,7 @@ The claim that is relevant to this scenario is `amr`. If it contains the value `
 - `amr` **must** be present in the ID Token's payload (if you log in with username/password the claim will not be included in the payload)
 - `amr` **must** contain the value `mfa` (`amr` can contain claims other than `mfa`, so its existence is not a sufficient test, its contents must be examined for the value `mfa`)
 
-If the token shows that the user has not authenticated with MFA, then you can trigger again authentication, and using a rule, trigger MFA. Once the user provides the second factor, a new ID Token, that contains the `amr` claim, is generated and sent to the app.
+If the token shows that the user has not authenticated with MFA then you can trigger the authentication process again, this time requiring that the user authenticates with MFA. You can require the user to authenticate with MFA by providing a parameter to the authentication process and creating a rule that requires MFA when it encounters that parameter. Once the user provides the second factor then a new ID Token, that contains the `amr` claim, is generated and sent to the app.
 
 ## How to check the ID Token for MFA
 
